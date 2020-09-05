@@ -831,7 +831,8 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
+#define EXPERIMENTAL_SCURVE
 
 //===========================================================================
 //============================= Z Probe Options =============================
