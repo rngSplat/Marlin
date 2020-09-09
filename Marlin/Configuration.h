@@ -1821,7 +1821,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+//#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
@@ -1986,7 +1986,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
@@ -2207,7 +2207,7 @@
 // Color Marlin UI with standard menu system
 //
 //#define TFT_320x240
-//#define TFT_320x240_SPI
+#define TFT_320x240_SPI
 //#define TFT_480x320
 //#define TFT_480x320_SPI
 
@@ -2216,7 +2216,7 @@
 // Mandatory for SPI screens with no MISO line
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
-//#define TFT_DRIVER AUTO
+#define TFT_DRIVER AUTO
 
 //
 // SPI display (MKS Robin Nano V2.0, MKS Gen L V2.0)
