@@ -2217,8 +2217,8 @@
 // Mandatory for SPI screens with no MISO line
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
-#define TFT_DRIVER AUTO
-#define TFT_BUFFER_SIZE 2400
+#define TFT_DRIVER ILI9341
+#define TFT_BUFFER_SIZE 1600
 
 //
 // SPI display (MKS Robin Nano V2.0, MKS Gen L V2.0)
