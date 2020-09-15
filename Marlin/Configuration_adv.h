@@ -2258,7 +2258,7 @@
   #endif
 
   #if AXIS_IS_TMC(Z)
-    #define Z_CURRENT       1240
+    #define Z_CURRENT       650
     #define Z_CURRENT_HOME  Z_CURRENT
     #define Z_MICROSTEPS     16
     #define Z_RSENSE          0.11
@@ -2470,7 +2470,7 @@
   #define X2_HYBRID_THRESHOLD    0
   #define Y_HYBRID_THRESHOLD     152
   #define Y2_HYBRID_THRESHOLD    0
-  #define Z_HYBRID_THRESHOLD       7
+  #define Z_HYBRID_THRESHOLD       2
   #define Z2_HYBRID_THRESHOLD      0
   #define Z3_HYBRID_THRESHOLD      0
   #define Z4_HYBRID_THRESHOLD      0
