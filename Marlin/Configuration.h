@@ -489,10 +489,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
-  #define DEFAULT_Kp 15.99
-  #define DEFAULT_Ki 0.79
-  #define DEFAULT_Kd 80.92
+  // 09-17-20 Tuned for 24v, part fan off
+  #define DEFAULT_Kp 19.09
+  #define DEFAULT_Ki 0.97
+  #define DEFAULT_Kd 94.21
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
