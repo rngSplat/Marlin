@@ -438,7 +438,7 @@
 // @section extruder
 
 /**
- * Extruder cooling fans
+ * Extruder cooling fans (TODO)
  *
  * Extruder auto fans automatically turn on when their extruders'
  * temperatures go above EXTRUDER_AUTO_FAN_TEMPERATURE.
@@ -476,7 +476,7 @@
 #define FANMUX2_PIN -1
 
 /**
- * M355 Case Light on-off / brightness
+ * M355 Case Light on-off / brightness  (TODO)
  */
 //#define CASE_LIGHT_ENABLE
 #if ENABLED(CASE_LIGHT_ENABLE)
@@ -1056,7 +1056,7 @@
   //#define TURBO_BACK_MENU_ITEM
 
   /**
-   * LED Control Menu
+   * LED Control Menu (TODO)
    * Add LED Control to the LCD menu
    */
   //#define LED_CONTROL_MENU
@@ -1084,7 +1084,7 @@
 #endif // HAS_LCD_MENU
 
 // Scroll a longer status message into view
-//#define STATUS_MESSAGE_SCROLLING
+#define STATUS_MESSAGE_SCROLLING
 
 // On the Info Screen, display XY with one decimal place when possible
 //#define LCD_DECIMAL_SMALL_XY
