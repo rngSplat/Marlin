@@ -832,7 +832,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 
 //===========================================================================
@@ -2218,7 +2218,7 @@
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
 #define TFT_DRIVER ILI9341
-#define TFT_BUFFER_SIZE 1600
+#define TFT_BUFFER_SIZE 1400
 
 //
 // SPI display (MKS Robin Nano V2.0, MKS Gen L V2.0)
