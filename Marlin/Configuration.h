@@ -1822,7 +1822,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-//#define SPEAKER
+#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
@@ -2218,7 +2218,7 @@
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
 #define TFT_DRIVER ILI9341
-#define TFT_BUFFER_SIZE 1600
+#define TFT_BUFFER_SIZE 800
 
 //
 // SPI display (MKS Robin Nano V2.0, MKS Gen L V2.0)
