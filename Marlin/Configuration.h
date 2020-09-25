@@ -343,7 +343,7 @@
     #define AUTO_POWER_CHAMBER_FAN
     #define AUTO_POWER_E_TEMP        50 // (°C) Turn on PSU over this temperature
     //#define AUTO_POWER_CHAMBER_TEMP  30 // (°C) Turn on PSU over this temperature
-    #define POWER_TIMEOUT 3600
+    #define POWER_TIMEOUT 300
   #endif
 #endif
 
