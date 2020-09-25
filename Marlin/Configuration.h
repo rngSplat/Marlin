@@ -333,7 +333,7 @@
   #define PSU_ACTIVE_STATE HIGH      // Set 'LOW' for ATX, 'HIGH' for X-Box
 
   #define PSU_DEFAULT_OFF         // Keep power off until enabled directly with M80
-  #define PSU_POWERUP_DELAY 2500   // (ms) Delay for the PSU to warm up to full power
+  #define PSU_POWERUP_DELAY 3200   // (ms) Delay for the PSU to warm up to full power
 
   #define AUTO_POWER_CONTROL      // Enable automatic control of the PS_ON pin
   #if ENABLED(AUTO_POWER_CONTROL)
