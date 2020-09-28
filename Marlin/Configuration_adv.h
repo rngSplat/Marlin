@@ -2470,7 +2470,7 @@
   #define X2_HYBRID_THRESHOLD    0
   #define Y_HYBRID_THRESHOLD     152
   #define Y2_HYBRID_THRESHOLD    0
-  #define Z_HYBRID_THRESHOLD       2
+  #define Z_HYBRID_THRESHOLD       8
   #define Z2_HYBRID_THRESHOLD      0
   #define Z3_HYBRID_THRESHOLD      0
   #define Z4_HYBRID_THRESHOLD      0
