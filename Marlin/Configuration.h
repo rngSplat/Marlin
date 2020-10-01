@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   //Auto-tune HE fan 255, Part fan 0, 10-01-2020
-  #define DEFAULT_Kp 18.79
-  #define DEFAULT_Ki 0.89
-  #define DEFAULT_Kd 98.72
+  #define DEFAULT_Kp 19.62
+  #define DEFAULT_Ki 1.04
+  #define DEFAULT_Kd 92.11
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
