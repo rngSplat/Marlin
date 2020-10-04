@@ -489,10 +489,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  //Auto-tune HE fan 255, Part fan 0, 10-01-2020
-  #define DEFAULT_Kp 19.62
-  #define DEFAULT_Ki 1.04
-  #define DEFAULT_Kd 92.11
+  //Auto-tune HE fan 255, Part fan 0, 10-04-2020
+  #define DEFAULT_Kp 14.32
+  #define DEFAULT_Ki 0.71
+  #define DEFAULT_Kd 72.21
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1137,7 +1137,7 @@
 #define Y_BED_SIZE 300
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -157
+#define X_MIN_POS -155
 #define Y_MIN_POS -188
 #define Z_MIN_POS 0
 #define X_MAX_POS 150
