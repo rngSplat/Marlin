@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   //Auto-tune HE fan 255, Part fan 0, 10-04-2020
-  #define DEFAULT_Kp 14.32
-  #define DEFAULT_Ki 0.71
-  #define DEFAULT_Kd 72.21
+  #define DEFAULT_Kp 16.32
+  #define DEFAULT_Ki 0.51
+  #define DEFAULT_Kd 129.86
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1133,7 +1133,7 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 300
+#define X_BED_SIZE 275
 #define Y_BED_SIZE 300
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
