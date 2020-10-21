@@ -489,9 +489,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  #define DEFAULT_Kp 15.89
-  #define DEFAULT_Ki 0.50
-  #define DEFAULT_Kd 127.45
+  #define DEFAULT_Kp 16.19
+  #define DEFAULT_Ki 0.6
+  #define DEFAULT_Kd 108.35
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1517,7 +1517,7 @@
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
-#define PREHEAT_2_TEMP_HOTEND 240
+#define PREHEAT_2_TEMP_HOTEND 200
 #define PREHEAT_2_TEMP_BED    80
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
