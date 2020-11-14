@@ -489,9 +489,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  #define DEFAULT_Kp 12.92
-  #define DEFAULT_Ki 0.51
-  #define DEFAULT_Kd 81.83
+  #define DEFAULT_Kp 10.64
+  #define DEFAULT_Ki 0.36
+  #define DEFAULT_Kd 79.42
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -756,7 +756,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 40 }
+#define DEFAULT_MAX_FEEDRATE          { 500, 500, 5, 80 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -996,7 +996,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -29, -6, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 0, 19, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1132,15 +1132,15 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 300
-#define Y_BED_SIZE 300
+#define X_BED_SIZE 270
+#define Y_BED_SIZE 270
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -166
-#define Y_MIN_POS -192
+#define X_MIN_POS -135
+#define Y_MIN_POS -202
 #define Z_MIN_POS 0
-#define X_MAX_POS 150
-#define Y_MAX_POS 150
+#define X_MAX_POS 135
+#define Y_MAX_POS 135
 #define Z_MAX_POS 350
 
 /**
