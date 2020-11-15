@@ -1290,7 +1290,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 3
+  #define GRID_MAX_POINTS_X 2
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
@@ -1988,7 +1988,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
@@ -2209,7 +2209,7 @@
 // Color Marlin UI with standard menu system
 //
 //#define TFT_320x240
-#define TFT_320x240_SPI
+//#define TFT_320x240_SPI
 //#define TFT_480x320
 //#define TFT_480x320_SPI
 
@@ -2218,8 +2218,8 @@
 // Mandatory for SPI screens with no MISO line
 // Available drivers are: ST7735, ST7789, ST7796, R61505, ILI9328, ILI9341, ILI9488
 //
-#define TFT_DRIVER ILI9341
-#define TFT_BUFFER_SIZE 1200
+//#define TFT_DRIVER ILI9341
+//#define TFT_BUFFER_SIZE 1200
 
 //
 // SPI display (MKS Robin Nano V2.0, MKS Gen L V2.0)
@@ -2255,7 +2255,7 @@
 //
 // ADS7843/XPT2046 ADC Touchscreen such as ILI9341 2.8
 //
-#define TOUCH_SCREEN
+//#define TOUCH_SCREEN
 #if ENABLED(TOUCH_SCREEN)
   #define BUTTON_DELAY_EDIT  50 // (ms) Button repeat delay for edit screens
   #define BUTTON_DELAY_MENU 250 // (ms) Button repeat delay for menus
